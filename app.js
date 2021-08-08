@@ -21,6 +21,7 @@ let weather = {
         document.querySelector(".temp").innerText = temp + "°C";
         document.querySelector(".humidity").innerText = "Humedad: " + humidity + "%";
         document.querySelector(".wind").innerText = "Viento: " + speed + " km/h";
+        document.querySelector(".weather").classList.remove("loading");
     },
     search: function () {
         this.fetchWeather(document.querySelector(".search-bar").value);
@@ -38,4 +39,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
 
 });
 
-weather.fetchWeather("Buenos Aires");
+weather.fetchWeather("Buenos Aires"); //para que mi inicio al cargar siempre sea BsAs
