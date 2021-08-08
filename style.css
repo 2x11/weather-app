@@ -55,8 +55,17 @@ input.search-bar {
     width: calc(100% - 100px);  /*para que la lupa no se me deforme*/  
 }
 
-
-  h1.temp {
+h1.temp {
     margin: 0;
     margin-bottom: 0.4em;
-  }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 0;
+}
