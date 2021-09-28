@@ -1,5 +1,5 @@
 # weather-app 🌥
-Aplicación que muestra el clima actual para cualquier ubicación del mundo.
+_Aplicación que muestra el clima actual para cualquier ubicación del mundo._
 
 La aplicacion fue creada a partir del consumo de la API de OpenWeatherMap utilizando 'fetch()'. 
 Se utilizo Flexbox para crear una tarjeta centrada y responsive. 
